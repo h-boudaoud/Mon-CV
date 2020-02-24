@@ -1,0 +1,260 @@
+:root{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+* {padding: 0; margin: 0;}
+html, body , .noPrint{
+    padding: 0;
+    margin: 0;
+    border:0;
+    font-size: 14px !important;
+    overflow: no-display;
+}
+h1{
+    font-size: .1rem;
+    color: rgba(15, 45, 49,0);
+}
+h2, h3{
+    margin-bottom: 2rem;
+    color : #fff;
+    text-align: center;
+}
+h2 span{
+    font-size: 1rem;
+    padding-bottom: 5rem;
+}
+nav, footer{
+    text-align: center;
+    max-height: 15vh;
+    min-height: 8vh;
+    margin: 0;
+    padding: 0;
+    /*background:rgba(15, 45, 49,.5);*/
+    z-index: 100;
+
+    background-image: linear-gradient(to right,
+    rgba(15, 45, 49,1),
+    rgba(15, 45, 49,1),
+    rgba(15, 45, 49,.5),
+    rgba(15, 45, 49,0),
+    rgba(15, 45, 49,.5),
+    rgba(15, 45, 49,1),
+    rgba(15, 45, 49,1));
+    color: #fff;
+}
+footer{
+    padding: .5rem;
+    text-:  #fff;
+    color: rgba(15, 45, 49,1)!important;
+}
+nav button, nav a{
+    margin: .2rem;
+    opacity: 0.5;
+    background-color: #fff !important;
+    color: rgba(15, 45, 49,1)!important;
+}
+ul {
+    list-style-type: none;
+    font-size: .8rem;
+}
+
+aside section{
+    margin: .3rem;
+}
+
+#coodonnees{
+    text-align: left;
+    margin-left: 1rem;
+    padding-left: .3rem;
+    background:rgba(15, 45, 49,1);
+    color: white;
+}
+
+#Formations section{
+    font-size: .89rem;
+}
+#certificatsOpenClassRooms a{
+    display: block;
+    margin-bottom: .5rem;
+    border-bottom: .2rem dashed;
+    width: 100%;
+    border-radius: 0;
+}
+.page{
+    background-image: linear-gradient(to top,
+    rgba(15, 45, 49,1),
+    rgba(15, 45, 49,1),
+    rgba(15, 45, 49,.5),
+    rgba(15, 45, 49,0),
+    rgba(15, 45, 49,.5),
+    rgba(15, 45, 49,1),
+    rgba(15, 45, 49,1));
+    max-height: 85vh;
+    min-height: 50vh;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+}
+.page> div{
+    min-width: 80vmin;
+    max-width: 95vw;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+.fenetre{
+    width: 99%;
+    border: .5vh solid rgba(15, 45, 49,.7);
+    border-left: 0;
+    border-right: 0;
+    border-radius: 10px 15px;
+    vertical-align: middle;
+}
+
+.fenetre button{
+    display: block;
+    margin: 0 auto;
+    padding: 0 1rem;
+    height: 5vh;
+    border-radius: 50px 50px;
+    background: rgba(0,0,0,0);
+    border: rgba(0,0,0,0);
+}
+.fenetre button:hover{
+     background: rgba(0,0,0,.5);
+     border: rgba(0,0,0,.5);
+ }
+
+
+.fenetre aside{
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    min-height: 80vh !important; // ne pas modifier
+    //max-height: 80vh;
+    min-width: 90vw;
+    max-width: 99vw;
+     overflow: auto;
+ }
+
+.fenetre aside> div{
+    //width: 100%;
+    margin: 0;
+    background: none;
+}
+
+.infos p{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.cursus{
+    display: table-cell;
+    background-color: rgba(15, 45, 49,.3);
+    border: .1rem dashed rgb(15, 45, 49) ;
+    border-radius: 10px;
+    padding: .5rem;
+    overflow: auto;
+    text-align: left;
+    //max-width: 100%;
+}
+.bloc{
+    display: block !important;
+    text-align: center;
+    min-height: 30vmin;
+}
+
+.row {
+    margin-right: 0;
+}
+
+button.handheld, button:disabled {
+    display: none;
+}
+button:hover{
+    background-color: rgb(15, 45, 49) !important;
+    color:#fff !important;
+    border-bottom: white !important;
+}
+
+nav button:hover .menuLabel{
+    display: block !important;
+}
+
+.dropdown{
+    display: inline-block !important;
+}
+
+@media (max-width: 1055px) and  (min-width: 810px) {
+
+    .infos p{
+        font-size: 1.4rem
+    }
+}
+@media (orientation: landscape){
+    .landscape{
+        width: 50%;
+    }
+    div[class^='col-xs'], div[class*='col-xs'],div[class^='col-'], div[class*='col-']{
+         width: 50%;
+     }
+    html, body, .noPrint{
+        font-size: 11px !important;
+    }
+}
+
+@media (max-width: 809px) {
+    html, body, .noPrint{
+        font-size: 10px;
+    }
+
+    #coodonnees{
+        margin-left: 0rem;
+        padding: auto 2rem !important;
+    }
+    .infos p{
+        font-size: 1.25rem
+    }
+
+    button.handheld{
+        display: block;
+    }
+
+}
+
+@media (max-width: 586px) {
+    #CNAM .cursus{
+        /*min-font-size: 2vmin;*/
+    }
+    .fenetre aside {
+        max-width: 80vw;
+    }
+}
+
+@media (max-width: 515px) {
+    h2, h3{
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+        color : #fff;
+        text-align: center;
+    }
+    .infos p{
+        font-size: 1rem;
+        margin : 0;
+    }
+    #CNAM .cursus{
+        font-size:2vmin;
+    }
+    .fenetre aside {
+        min-width: 70vw;
+        max-width: 75vw;
+    }
+}
+@media (max-width: 460px) {
+    #CNAM .cursus{
+        font-size: .75rem;
+    }
+}
+
+

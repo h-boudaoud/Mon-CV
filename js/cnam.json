@@ -1,0 +1,52 @@
+[
+  {
+    "alias": "TET 102",
+    "name": "Management social pour ingénieur et communication en entreprise ",
+    "url": "doc/cnam/TET102.pdf"
+  },
+  {
+  "alias": "RSX 112",
+  "name": "Sécurité et réseaux",
+  "url": "doc/cnam/RSX112.pdf"
+},
+  {
+    "alias": "GLG 105",
+    "name": "Génie logiciel",
+    "url": "doc/cnam/GLG105.pdf"
+  },
+  {
+    "alias": "CCE 105",
+    "name": "Pratiques écrites et orales de la communication professionnelle",
+    "url": "doc/cnam/CCE105.pdf"
+  },
+  {
+    "alias": "NFP 135",
+    "name": "Valeur d'Accueil et de Reconversion en Informatique 1",
+    "url": "NFP135.pdf"
+  },
+  {
+    "alias": "RCP 101",
+    "name": "Recherche opérationnelle et aide à la décision",
+    "url": "doc/cnam/RCP101.pdf"
+  },
+  {
+    "alias": "NFP 136",
+    "name": "Valeur d'Accueil et de Reconversion en Informatique 2",
+    "url": "doc/cnam/NFP136.pdf"
+  },
+  {
+    "alias": "SMB 137",
+    "name": "Systèmes d'exploitation : principes, programmation et virtualisation",
+    "url": "doc/cnam/SMB137.pdf"
+  },
+  {
+    "alias": "NFE 108",
+    "name": "Spécification et Modélisation Informatiques",
+    "url": "doc/cnam/NFE108.pdf"
+  },
+  {
+    "alias": "NFE 113",
+    "name": "Conception et administration de bases de données",
+    "url": "doc/cnam/NFE113.pdf"
+  }
+]
